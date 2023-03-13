@@ -384,7 +384,7 @@ a[class] {
 }
 .slider-blog__item-title {
   font-weight: bold;
-  font-style: 36px;
+  font-size: 36px;
   line-height: 52px;
   color: #242121;
   margin-bottom: 10px;
@@ -407,7 +407,7 @@ a[class] {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  font-style: 0;
+  font-size: 0;
   padding: 0;
   border: none;
 }
@@ -449,12 +449,12 @@ a[class] {
   padding: 35px 0 12px;
   line-height: 17px;
   font-weight: bold;
-  font-style: 14px;
+  font-size: 14px;
   color: #333;
 }
 .team__position {
   font-weight: 300;
-  font-style: 12px;
+  font-size: 12px;
   line-height: 16px;
 }
 .pricing {
@@ -476,7 +476,7 @@ ul.pricing__item {
 }
 .pricing__item li {
   font-weight: 300;
-  font-style: 16px;
+  font-size: 16px;
   line-height: 22px;
   color: #242121;
   margin-bottom: 30px;
@@ -487,7 +487,7 @@ ul.pricing__item {
   margin-bottom: 8px;
 }
 .pricing__item .pricing__item-num {
-  font-style: 80px;
+  font-size: 80px;
   line-height: 109px;
   margin-bottom: 50px;
 }
