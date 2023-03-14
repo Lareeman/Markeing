@@ -41,6 +41,8 @@ a[class] {
   left: 0;
 }
 
+/* ====== HEADER ============= */
+
 .header__content {
   background-image: url("../images/header-bg.jpg");
   background-repeat: no-repeat;
@@ -106,6 +108,9 @@ a[class] {
 .header__icon {
   margin-bottom: 62px;
 }
+
+/* =======ABOUT =========== */
+
 .about {
   background: #f6f8fa;
   padding: 150px 0 144px;
@@ -124,6 +129,10 @@ a[class] {
   max-width: 770px;
   margin-bottom: 16px;
 }
+
+/* ======= EXPERTISE =========== */
+
+
 .expertise {
   padding: 140px 0 160px;
 }
@@ -207,6 +216,9 @@ a[class] {
 .expertise__item-text {
   color: #777;
 }
+
+/* ======== MAGIC ============= */
+
 .magic {
   background-color: #f6f6fa;
   background-image: url("../images/magic-bg.jpg");
@@ -261,6 +273,8 @@ a[class] {
 .mixitup-control-active {
   border-bottom: 1px solid #fcbb08;
 }
+
+/* ======= PORTFOLIO ============== */
 
 .portfolio__content {
   column-count: 4;
@@ -375,6 +389,9 @@ a[class] {
   color: #333333;
   display: block;
 }
+
+/* ===== SLIDER-BLOG ============= */
+
 .sloder-blog {
   background-color: #f8f6fa;
   padding: 115px 0;
@@ -384,7 +401,7 @@ a[class] {
 }
 .slider-blog__item-title {
   font-weight: bold;
-  font-style: 36px;
+  font-size: 36px;
   line-height: 52px;
   color: #242121;
   margin-bottom: 10px;
@@ -407,7 +424,7 @@ a[class] {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  font-style: 0;
+  font-size: 0;
   padding: 0;
   border: none;
 }
@@ -433,6 +450,10 @@ a[class] {
 .slick-next {
   right: -95px;
 }
+
+/* ========= TEAM =========== */
+
+
 .team {
   padding: 120px 0 130px;
 }
@@ -449,14 +470,18 @@ a[class] {
   padding: 35px 0 12px;
   line-height: 17px;
   font-weight: bold;
-  font-style: 14px;
+  font-size: 14px;
   color: #333;
 }
 .team__position {
   font-weight: 300;
-  font-style: 12px;
+  font-size: 12px;
   line-height: 16px;
 }
+
+/* ======= PRICING ============== */
+
+
 .pricing {
   background-color: #f6f8fa;
   padding: 145px 0 160px;
@@ -476,7 +501,7 @@ ul.pricing__item {
 }
 .pricing__item li {
   font-weight: 300;
-  font-style: 16px;
+  font-size: 16px;
   line-height: 22px;
   color: #242121;
   margin-bottom: 30px;
@@ -492,14 +517,14 @@ ul.pricing__item {
   margin-bottom: 50px;
 }
 .pricing__item-num sup {
-  font-style: 40px;
+  font-size: 40px;
   line-height: 53px;
 }
 .pricing__item-link {
   margin-top: 70px;
   display: block;
   font-weight: bold;
-  font-style: 14px;
+  font-size: 14px;
   line-height: 17px;
   letter-spacing: 1.2;
   font-family: "Montserrat";
@@ -509,6 +534,9 @@ ul.pricing__item {
   font-weight: 700;
   color: inherit;
 }
+
+/* ====== CLIENTS ============ */
+
 .clients {
   padding: 70px 0 95px;
 }
@@ -567,6 +595,9 @@ ul.pricing__item {
 	margin-top: 40px;
 	letter-spacing: 2px;
 }
+
+/* ====== FOOTER =============== */
+
 .footer__top{
 	padding: 110px 10px 60px;
 	background-color: #333;
