@@ -730,7 +730,7 @@ ul.footer__social {
 
   }
 
-  .menu__list-item +.menu__list-item {
+  .menu__list-item + .menu__list-item {
     margin-left: 0;
   }
 
