@@ -665,11 +665,12 @@ ul.footer__social{
 }
 ul.menu__list {
   padding: 15px 0;
+  transform: translateY(-200%);
 }
 .menu__list-link {
   display: block;
   padding: 15px 0;
-  color: fff;
+  color: #fff;
 }
 .header__title {
   font-size: 50px;
