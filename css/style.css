@@ -722,9 +722,9 @@ ul.footer__social {
     transform: translateY(-200%);
     transition: all 0.5s;
   }
-/* .menu__list.menu__list--active {
+.menu__list.menu__list--active {
   transform: translateY(0%);
-} */
+}
   ul.menu__list {
     padding: 15px 0;
 
