@@ -440,7 +440,7 @@ a[class] {
   display: flex;
 }
 
-.slick-dots li+li {
+.slick-dots li + li {
   margin-left: 13px;
 }
 
