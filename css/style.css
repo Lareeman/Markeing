@@ -440,7 +440,7 @@ a[class] {
   display: flex;
 }
 
-.slick-dots li + li {
+.slick-dots li+li {
   margin-left: 13px;
 }
 
@@ -710,54 +710,90 @@ ul.footer__social {
 
 /* ====== MEDIA ============= */
 
-@media (max-width: 768px){
-.menu__list{
- position: absolute;
- left: 0;
- right: 0;
- top: 90px;
- background-color: #000;
- display: block;
- text-align: center;
+@media (max-width: 768px) {
+  .menu__list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90px;
+    background-color: #000;
+    display: block;
+    text-align: center;
+    transform: translateY(-200%);
+    transition: all 0.5s;
+  }
+/* .menu__list.menu__list--active {
+  transform: translateY(0%);
+} */
+  ul.menu__list {
+    padding: 15px 0;
+
+  }
+
+  .menu__list-item +.menu__list-item {
+    margin-left: 0;
+  }
+
+  .menu__list-link {
+    display: block;
+    padding: 15px 0;
+    color: #fff;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 3;
+  }
+
+  .header__title {
+    font-size: 50px;
+    line-height: 65px;
+    margin-bottom: 10px;
+  }
+
+  .header__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+
+  }
+
+  .menu__btn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-top: 30px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .header__top-inner.header__top-inner--active .menu__list {
+    transform: translateY(0%);
+   
+  }
+
+  .header__top-inner.header__top-inner--active .menu__btn path {
+    fill: #000;
+  }
+
+  .header__top-inner.header__top-inner--active .menu__btn rect {
+    fill: #000;
+  }
+
+  .header__top-inner {
+    align-items: center;
+  }
 }
-ul.menu__list {
-  padding: 15px 0;
-  transform: translateY(-200%);
-}
-.menu__list-link {
-  display: block;
-  padding: 15px 0;
-  color: #fff;
-}
-.header__title {
-  font-size: 50px;
-  line-height: 65px;
-  margin-bottom: 10px;
-}
-.header__subtitle {
-  font-size: 14px;
-  line-height: 16px;
-  
-}
-.menu__btn {
-  display: block;
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  margin-top: 35px;
-}
-.header__top-inner{
-  align-items: center;
-}
-}
-@media (max-width:440px){
+
+@media (max-width:440px) {
   .header__title {
     font-size: 36px;
     line-height: 44px;
   }
+
   .header__subtitle {
     font-size: 12px;
     line-height: 14px;
-    
+
   }
 }
